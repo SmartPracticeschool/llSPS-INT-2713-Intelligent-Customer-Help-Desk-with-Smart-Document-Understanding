@@ -1,0 +1,1 @@
+[{"id":"8da680a0.df4fd","type":"function","z":"21865a1c.558576","name":"","func":"var pwd=global.get(\"pwd\");\nif(msg.payload[2].PASSWORD==pwd){\n    msg.payload=\"Login Successful\"\n}\nelse{\n    msg.payload=\"Invalid Password\"\n}\n\nreturn msg;","outputs":1,"noerr":0,"x":670,"y":280,"wires":[["551a578e.704bd8"]]}]
